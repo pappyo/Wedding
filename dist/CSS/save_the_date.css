@@ -1,0 +1,53 @@
+/*This is a temp css file for the save the date page */
+
+#image img{
+    background: none;
+    float: left;
+    border: none;
+    width: 40%;
+}    
+
+
+#content {
+    margin-left: 41%;
+    width: 59%;
+}
+
+#accordion {
+    background-color: white;
+}
+
+.info h2 {
+    font-family: 'Philosopher', arial, serif;
+    text-align: center;
+    color: #c61a1a
+}
+
+.info span{
+    font-style: italic;
+}
+
+.info a:link {
+    color: #b79018;
+    text-decoration: none;
+}
+
+.info a:visited{
+    color: #b79018;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color: #f6e678;
+    text-decoration: underline;
+}
+
+.info a:active{
+    color: #b79018;
+    text-decoration: none;
+}
+
+.hotel{
+    font-weight: bold;
+}
+

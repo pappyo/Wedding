@@ -1,0 +1,48 @@
+#wrap{
+    margin: 0px 0px auto; 
+    background: white;
+    line-height: 120%;
+    width: 100%;
+    display: inline;
+}
+
+/*Header*/
+
+#header {
+    width: 100%;
+    text-align: center;
+    
+}
+
+#header h1{
+    padding-top: 15px;
+}
+
+
+/* Navigation */
+
+#nav{
+    background-color: green;
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+
+/*Content*/
+
+#content{
+    background-color: red;
+    margin-left: 250px;
+    width: 100%;
+}
+
+
+
+
+/*Footer*/
+
+#footer{
+    background-color: purple;
+    clear: both;
+}
+        

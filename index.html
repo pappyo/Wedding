@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">     
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Theresa and Mike's Wedding Page</title>
+        <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="dist/CSS/wedding_default.css" />		
+		<link type="text/css" href="css/custom-theme/jquery-ui-1.8.7.custom.css" rel="stylesheet" />	
+        <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.7.custom.min.js"></script>
+        <link rel="shortcut icon" href="http://www.theresa-and-mike.com/favicon.ico" />
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+           
+	
+				// Tabs
+				$('#tabs').tabs();
+	
+
+				// Dialog			
+				$('#dialog').dialog({
+					autoOpen: false,
+					width: 600,
+					buttons: {
+						"Ok": function() { 
+							$(this).dialog("close"); 
+						}, 
+						"Cancel": function() { 
+							$(this).dialog("close"); 
+						} 
+					}
+				});
+				
+				// Dialog Link
+				$('#dialog_link').click(function(){
+					$('#dialog').dialog('open');
+					return false;
+				});
+
+				// Datepicker
+				$('#datepicker').datepicker({
+					inline: true
+				});
+				
+				// Slider
+				$('#slider').slider({
+					range: true,
+					values: [17, 67]
+				});
+				
+				// Progressbar
+				$("#progressbar").progressbar({
+					value: 20 
+				});
+				
+				//hover states on the static widgets
+				$('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); }, 
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+				
+			});
+		</script>	
+	</head>
+	<body>
+    <div id="wrap">
+            <div id="image">
+                <img src="dist/img/Save the Date.jpg" alt="Save the Date" />
+             </div>
+        <div id="content">
+		    <div id="accordion">
+			    <div class="title">
+				<h3><a href="#">Welcome</a></h3>
+				<div class="info">
+                    <h2>Thanks for visiting Theresa and Mike's Wedding Website!</h2> 
+                       <p><span>This site is currently under construction.</span> However we wanted to provide some preliminary details to help you plan your trip to Boston. Click on the Red Bars below to find out travel information with regard to our wedding.  Exact details regarding the wedding will be sent to you in the near future.
+<br />
+<br />
+Thank you for helping us celebrate this joyous occasion.
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Theresa and Mike</p>
+                </div>
+			</div>
+			<div class="title">
+				<h3><a href="#">Accommodations</a></h3>
+				<div class="info">
+                    <h2>Wedding Location</h2>
+                        <p>The wedding ceremony will be held at <a href="http://www.kings-chapel.org" target="_blank">Kings Chapel</a> and reception to follow at <a href="http://en.wikipedia.org/wiki/Omni_Parker_House" target="_blank">The Omni Parker House</a>; both located next to each other in <a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Omni+Parker+House+Boston,+School+Street,+Boston,+MA&daddr=58+Tremont+St,+Boston,+Suffolk,+Massachusetts+02108&hl=en&geocode=FSpUhgIdHLXD-yHTdlQ3hh2BVw%3BFfBUhgId4LXD-yk15oKXhHDjiTF3ETcu13FoNg&mra=ltm&dirflg=w&sll=42.358325,-71.05908&sspn=0.0031,0.006899&ie=UTF8&ll=42.358029,-71.060276&spn=0.000775,0.001725&z=19" target="_blank">downtown Boston</a>.</p>
+                    <h2>Hotels</h2> 
+                            <p><a href="http://www.omnihotels.com/FindAHotel/BostonParkerHouse/MeetingFacilities/CooneyOHaraWedding7.aspx" class="hotel" target="_blank">THE OMNI</a> has provided a block of rooms for us starting at $209 a night. The rooms are one floor below the reception. You can book at this rate on our special <a href="http://www.omnihotels.com/FindAHotel/BostonParkerHouse/MeetingFacilities/CooneyOHaraWedding7.aspx" target="_blank">Omni website</a> until June 9, 2011. 
+<br /><br /><span>(N.B. The Omni did mention that if anyone booked their room through a discount website, or any other means, we would be able to include that room in our block at that discounted rate.)</span></p>
+                            <p><a href="http://www.marriott.com/hotels/travel/bosdm-courtyard-boston-downtown-tremont/" class="hotel" target="_blank">THE COURTYARD BY MARRIOTT</a> and the <a href="http://www.hisboston.com/" class="hotel" target="_blank">HOLIDAY INN BEACON HILL</a> are two more affordable alternatives that are both <a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Holiday+Inn+Boston+at+Beacon+Hill,+5+Blossom+St.+at+Cambridge+St.,+Boston,+MA+02114&daddr=Omni+Parker+House+Boston,+School+Street,+Boston,+MA+to:275+Tremont+Street,+Boston,+Massachusetts+02116&hl=en&geocode=FchjhgIdGJzD-yFHAQi-0MyrTw%3BFSpUhgIdHLXD-yHTdlQ3hh2BVw%3BFVo1hgIdPqHD-ynVPq3adnrjiTH1aq8KoPl2Kg&mra=ltm&dirflg=w&sll=42.355182,-71.063175&sspn=0.0248,0.055189&ie=UTF8&ll=42.355373,-71.053305&spn=0.0248,0.055189&z=14" target="_blank">0.6 miles</a> from the wedding. We are looking to reserve blocks of rooms there as well. We are hoping to get the rate between $140 and $160 a night. Check back here for updates.</p>
+                            <p><a href="http://www.google.com/search?aq=0&oq=discount+hotel+we&sourceid=chrome&ie=UTF-8&q=discount+hotel+websites" class="hotel" target="_blank">DISCOUNT WEBSITES</a> or <a href="http://www.google.com/search?aq=0&oq=discount+hotel+we&sourceid=chrome&ie=UTF-8&q=discount+hotel+websites#hl=en&sa=X&ei=3801TY_EBcfXgQeQ7ZWyCw&ved=0CB4QvwUoAQ&q=luxury+hotels+downtown+boston&spell=1&fp=ee5b8d49ec6ea034" class="hotel" target="_blank">LUXURY HOTELS</a> are another option. Boston and the surrounding cities have a lot of hotels all within close proximity to the Omni.  The Omni is easily accessible by the <a href="http://www.mbta.com" target="_blank">subway</a> or cab.</p>
+                </div>
+			</div>
+			<div class="title">
+				<h3><a href="#">Air Travel</a></h3>
+				<div class="info">
+                    <h2>Logan Airport</h2>
+                        <p>Boston's Logan Airport services all major domestic and international airlines and most discount airlines including <a href="http://www.jetblue.com" target="_blank">Jet Blue</a> and <a href="http://www.southwest.com" target="_blank">Southwest</a></p>
+                        <p><span>(N.B. The Omni and most other hotels can be reached easily from the airport by the subway or cab.  We do not recommend you rent a car.)</span></p>
+                </div>
+			</div>
+            <div class="title">
+                <h3><a href="#">Driving</a></h3>
+                <div class="info">
+                    <h2>Parking</h2>
+                        <p>Parking at the Omni will cost you $25 a day. If you stay at a different hotel, your price may vary.  The cheapest option is parking at the <a href="http://www.massconvention.com/bcg_rat.html" target="_blank">Boston Common garage</a> which is $11 per weekend day.  It is about a 3 minute walk to the Omni from this garage through the Boston Common. You can drop your luggage off at the hotel and then drop your car off and leave it at the Boston Common Garage for the weekend.</p>
+
+                        <p><span>(N.B. We do not recommend you try to find on-street parking. You WILL get a ticket and possibly get your car towed.)</span></p>
+                    
+                    <h2>Bus</h2>
+                        <p>Boston's Bus station is located at <a href="http://www.mbta.com/schedules_and_maps/rail/lines/stations/?stopId=191" target="_blank">South Station</a>, which is connected to the subway.  The station serves all major carriers. It also serves discount carriers that are found in New York City, Philadelphia and Washington D.C.
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
